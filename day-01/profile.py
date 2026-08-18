@@ -1,0 +1,11 @@
+name = input("What is your name? ")
+name= name.capitalize()
+age= int(input("What is your age? "))
+country= input("Where are you living? ")
+job= input("what is your favourite Job? ")
+x= age+5
+print(f"Hello, {name}")
+print(f"You are {age} years old")
+print(f"You are intrested in becoming a {job}")
+print(f"your target is working remotely or in {country}")
+print(f"In 5 years, you will be {x} years old")
