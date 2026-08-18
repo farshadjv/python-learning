@@ -1,0 +1,6 @@
+Age = int(input("Enter your age: "))
+Country = input("Enter your country: ")
+if Age >= 18 and Country == "Germany" or Country == "Oman":
+    print("You are in the right way")
+else:
+    print("You are not in the right way")
